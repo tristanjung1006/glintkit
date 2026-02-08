@@ -10,11 +10,61 @@ Copy-paste components you own — no runtime dependency, no lock-in.
 [![npm version](https://img.shields.io/npm/v/glintkit.svg)](https://www.npmjs.com/package/glintkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![CI](https://github.com/tristanjung1006/glintkit/actions/workflows/ci.yml/badge.svg)](https://github.com/tristanjung1006/glintkit/actions/workflows/ci.yml)
+[![Storybook](https://img.shields.io/badge/Storybook-Live_Demo-FF4785?logo=storybook&logoColor=white)](https://tristanjung1006.github.io/glintkit/)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
 
 </div>
 
 ---
+
+## Component Showcase
+
+> **[View Live Storybook Demo →](https://tristanjung1006.github.io/glintkit/)**
+
+<table>
+<tr>
+<td align="center" width="33%">
+<strong>3D Card</strong><br/>
+<sub>Mouse/touch tracking with depth layers</sub>
+</td>
+<td align="center" width="33%">
+<strong>Holo Card</strong><br/>
+<sub>Holographic rainbow shine effect</sub>
+</td>
+<td align="center" width="33%">
+<strong>Glass Surface</strong><br/>
+<sub>SVG-based refraction distortion</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<strong>Prismatic Burst</strong><br/>
+<sub>WebGL prismatic light refraction</sub>
+</td>
+<td align="center" width="33%">
+<strong>Dome Gallery</strong><br/>
+<sub>3D sphere photo gallery with drag</sub>
+</td>
+<td align="center" width="33%">
+<strong>Flip Card</strong><br/>
+<sub>3D flip with tilt effect</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<strong>Glass Button</strong><br/>
+<sub>Multi-variant glassmorphism button</sub>
+</td>
+<td align="center" width="33%">
+<strong>Counter</strong><br/>
+<sub>Cyberpunk scramble animation</sub>
+</td>
+<td align="center" width="33%">
+<strong>Music Player</strong><br/>
+<sub>Audio player with soundwave viz</sub>
+</td>
+</tr>
+</table>
 
 ## Why glintkit?
 
@@ -153,7 +203,7 @@ glintkit reads your `tsconfig.json` to auto-detect path aliases:
        ▼                                         ▼
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
 │ Config Mgmt  │     │  CSS Inject  │     │ File Writer  │
-│ (glint.json) │     │  (markers)   │     │ (aliases)    │
+│(glintkit.json)│     │  (markers)   │     │ (aliases)    │
 └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
