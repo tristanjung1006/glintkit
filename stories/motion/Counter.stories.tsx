@@ -14,7 +14,7 @@ const meta: Meta<typeof Counter> = {
     },
   },
   argTypes: {
-    target: { control: { type: "number", min: 0, max: 10000 } },
+    end: { control: { type: "number", min: 0, max: 10000 } },
     suffix: { control: "text" },
   },
 };
@@ -23,22 +23,22 @@ export default meta;
 type Story = StoryObj<typeof Counter>;
 
 export const Default: Story = {
-  args: { target: 1500, suffix: "+" },
+  args: { end: 1500, suffix: "+" },
 };
 
 export const Stats: Story = {
   render: () => (
     <div className="flex gap-12">
       <div className="text-center">
-        <Counter target={73} suffix="+" className="text-5xl font-bold" />
+        <Counter end={73} suffix="+" className="text-5xl font-bold" />
         <p className="text-white/60 mt-2 text-sm">Teams</p>
       </div>
       <div className="text-center">
-        <Counter target={1500} suffix="+" className="text-5xl font-bold" />
+        <Counter end={1500} suffix="+" className="text-5xl font-bold" />
         <p className="text-white/60 mt-2 text-sm">Visitors</p>
       </div>
       <div className="text-center">
-        <Counter target={10} suffix="+" className="text-5xl font-bold" />
+        <Counter end={10} suffix="+" className="text-5xl font-bold" />
         <p className="text-white/60 mt-2 text-sm">Sponsors</p>
       </div>
     </div>
