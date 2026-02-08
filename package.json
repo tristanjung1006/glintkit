@@ -29,7 +29,7 @@
   },
   "author": "tristanjung1006",
   "dependencies": {
-    "commander": "^13.1.0",
+    "commander": "^14.0.3",
     "fs-extra": "^11.2.0",
     "ora": "^8.1.1",
     "picocolors": "^1.1.1",
