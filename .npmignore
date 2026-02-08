@@ -1,0 +1,11 @@
+src/
+templates/
+scripts/
+tsconfig.json
+tsup.config.ts
+__generated__/
+*.tsbuildinfo
+.gitignore
+.storybook/
+stories/
+storybook-static/
