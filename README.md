@@ -68,7 +68,9 @@ Copy-paste components you own — no runtime dependency, no lock-in.
 
 ## Why glintkit?
 
-Most UI libraries give you basic buttons and inputs. **glintkit** gives you the components that make users say *"wow"*:
+I'm building the next generation of visual development tools — something beyond Webflow, Framer, and Lovable. To get there, I needed a personal library of production-grade UI primitives: 3D effects, glassmorphism, WebGL shaders, and motion components that actually ship well.
+
+Instead of keeping it private, I open-sourced it. If these components help you build something beautiful, that's a win.
 
 - **Holographic cards** with rainbow shine that follows your cursor
 - **WebGL prismatic bursts** with real-time light refraction
