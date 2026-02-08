@@ -1,0 +1,6 @@
+node_modules/
+dist/
+__generated__/
+*.tsbuildinfo
+storybook-static/
+coverage/
