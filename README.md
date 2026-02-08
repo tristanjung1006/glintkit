@@ -194,18 +194,7 @@ glintkit reads your `tsconfig.json` to auto-detect path aliases:
 
 ## Architecture
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│  CLI Layer   │────▶│   Registry   │────▶│  Templates   │
-│  (commander) │     │  (metadata)  │     │  (bundled)   │
-└──────┬───────┘     └──────────────┘     └──────┬───────┘
-       │                                         │
-       ▼                                         ▼
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│ Config Mgmt  │     │  CSS Inject  │     │ File Writer  │
-│(glintkit.json)│     │  (markers)   │     │ (aliases)    │
-└──────────────┘     └──────────────┘     └──────────────┘
-```
+<img width="1640" height="600" alt="image" src="https://github.com/user-attachments/assets/183ce717-e39f-4317-b394-66e3b9267e59" />
 
 ## Requirements
 
