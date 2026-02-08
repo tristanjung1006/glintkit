@@ -61,6 +61,10 @@ const config: StorybookConfig = {
   viteFinal: async (config) => {
     const tailwindcss = (await import("@tailwindcss/vite")).default;
 
+    if (process.env.STORYBOOK_BASE) {
+      config.base = process.env.STORYBOOK_BASE;
+    }
+
     config.plugins = config.plugins || [];
     config.plugins.push(glintAliasPlugin());
     config.plugins.push(tailwindcss());

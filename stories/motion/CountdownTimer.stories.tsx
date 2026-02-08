@@ -18,15 +18,14 @@ const meta: Meta<typeof CountdownTimer> = {
 export default meta;
 type Story = StoryObj<typeof CountdownTimer>;
 
-// Target date 30 days from now
-const futureDate = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString();
-
 export const Default: Story = {
-  args: { targetDate: futureDate },
+  args: {
+    targetDate: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+  },
 };
 
 export const Approaching: Story = {
   args: {
-    targetDate: new Date(Date.now() + 2 * 60 * 60 * 1000).toISOString(), // 2 hours
+    targetDate: new Date(Date.now() + 2 * 60 * 60 * 1000),
   },
 };
