@@ -1,10 +1,10 @@
 {
   "name": "glintkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add beautiful 3D, glass, and motion UI components to your project",
   "type": "module",
   "bin": {
-    "glintkit": "./dist/index.js"
+    "glintkit": "dist/index.js"
   },
   "files": [
     "dist"
