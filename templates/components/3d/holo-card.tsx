@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useCallback, useState } from "react";
+import React, { useEffect, useRef, useCallback, useState } from "react";
 import { cn } from "__UTILS_ALIAS__/cn";
 
 export interface HoloCardItem {

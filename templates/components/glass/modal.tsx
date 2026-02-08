@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "__UTILS_ALIAS__/cn";
-import { useEffect, useCallback } from "react";
+import React, { useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 
 interface ModalProps {

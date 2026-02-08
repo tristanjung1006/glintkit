@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { cn } from "__UTILS_ALIAS__/cn";
 import { CardContainer, CardBody, CardItem } from "__COMPONENTS_ALIAS__/3d-card";
 

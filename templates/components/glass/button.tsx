@@ -1,5 +1,5 @@
 import { cn } from "__UTILS_ALIAS__/cn";
-import { ButtonHTMLAttributes, forwardRef } from "react";
+import React, { ButtonHTMLAttributes, forwardRef } from "react";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "ghost" | "gradient" | "glow-border";

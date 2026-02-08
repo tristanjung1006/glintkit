@@ -1,5 +1,5 @@
 import { cn } from "__UTILS_ALIAS__/cn";
-import { HTMLAttributes, forwardRef } from "react";
+import React, { HTMLAttributes, forwardRef } from "react";
 
 interface CardProps extends HTMLAttributes<HTMLDivElement> {
   variant?: "default" | "strong" | "gradient" | "outline";
